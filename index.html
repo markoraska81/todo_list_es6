@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://bootswatch.com/4/yeti/bootstrap.min.css">
+    <!-- font-awesome -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-header">
+            <img src="nav-logo.png" alt="" class="logo">
+            <button class="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+    <main>
+        <div class="container my-4 text-capitalize">
+            <h1 class="display-4 text-capitalize text-center mb-5">
+                <i class="fas fa-book-open"></i>
+                my<span class="text">Book</span>List
+            </h1>
+            <form action="" id="book-form">
+                <div class="form-group">
+                    <label for="title">Title</label>
+                    <input type="text" id="title" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="Author">Author</label>
+                    <input type="text" id="author" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="id">ID number</label>
+                    <input type="text" id="idNum" class="form-control">
+                </div>
+                <input type="submit" value="Add Book" class="btn btn-primary btn-block">
+            </form>
+            <table class="table table-striped mt-5">
+                <thead>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>ID Number</th>
+                    <th></th>
+                </thead>
+                <tbody id="book-list">
+
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>

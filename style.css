@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #eea7a9;
+    color: black;
+    line-height: 1.5;
+    font-size: 0.875rem;
+}
+
+/*  NAV  */
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1.5rem;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,.2);
+}
+
+img {
+    width: 7rem;
+    height: 4rem;
+    display: block;
+}
+
+.nav-header .nav-toggle {
+    font-size: 2rem;
+    color: #ed1c24;
+    background: transparent;
+    border-color: transparent;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    outline: none;
+    align-self: center;
+}
+
+/*  MAIN  */
+
+.container {
+    width: 100%;
+    max-width: 800px;
+}
+
+.fas.fa-book-open {
+    color: #ed1c24;
+}
+
+span.text {
+    color: #ed1c24;
+}
+
+/* input.btn {
+    background: #ed1c24;
+    color: #fff;
+} */
